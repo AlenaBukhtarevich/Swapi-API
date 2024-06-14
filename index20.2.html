@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Swapi API</title>
+    <link rel="stylesheet" href="assets/normalize.css" />
+    <link rel="stylesheet" href="assets/style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Swapi API</h1>
+
+      <label for="essence"></label><br />
+      <select id="essence">
+        <option value="people">People</option>
+        <option value="films">Films</option>
+        <option value="planets">Planets</option>
+        <option value="species">Species</option>
+        <option value="starships">Starships</option>
+        <option value="vehicles">Vehicles</option>
+      </select>
+
+      <input
+        type="number"
+        id="number"
+        min="1"
+        max="10"
+        placeholder="Введите номер"
+      />
+
+      <button id="submit" type="submit">Вперед!</button>
+
+      <div id="loading">Loading...</div>
+      <div id="result"></div>
+      <div id="error"></div>
+    </div>
+
+    <script src="./index20.2.js"></script>
+  </body>
+</html>

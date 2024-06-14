@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#essence {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#number {
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #f7cece;
+  width: 200px;
+  height: 50px;
+  border-radius: 8px;
+  border: none;
+  margin-top: 30px;
+}
+
+#result,
+#error {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: none;
+}
+
+#loading {
+  display: none;
+  font-size: 16px;
+}
